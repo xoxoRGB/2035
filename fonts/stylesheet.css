@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'ING Me';
+    src:url('INGMe.eot');
+    src:url('INGMe.eot?#iefix') format('embedded-opentype'),
+        url('INGMe.woff2') format('woff2'),
+        url('INGMe.woff') format('woff'),
+        url('INGMe.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family:'ING Me';
+    src:url('INGMe-Bold.eot');
+    src:url('INGMe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('INGMe-Bold.woff2') format('woff2'),
+        url('INGMe-Bold.woff') format('woff'),
+        url('INGMe-Bold.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family:'ING Me';
+    src:url('INGMe-BoldItalic.eot');
+    src:url('INGMe-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('INGMe-BoldItalic.woff2') format('woff2'),
+        url('INGMe-BoldItalic.woff') format('woff'),
+        url('INGMe-BoldItalic.ttf') format('truetype');
+    font-weight:bold;
+    font-style:italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family:'ING Me';
+    src:url('INGMe-Italic.eot');
+    src:url('INGMe-Italic.eot?#iefix') format('embedded-opentype'),
+        url('INGMe-Italic.woff2') format('woff2'),
+        url('INGMe-Italic.woff') format('woff'),
+        url('INGMe-Italic.ttf') format('truetype');
+    font-weight:normal;
+    font-style:italic;
+    font-display:swap;
+}
+
