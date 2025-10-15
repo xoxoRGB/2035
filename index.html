@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<style>html{visibility: hidden;opacity:0;}body{display:none}</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Zaproszenie - ING 2035+</title>
+		<script src="./js/jquery.js"></script>
+		<script src="./js/main-dist.js"></script>
+		<link id="styleLink" rel="stylesheet" href="css/stylex-dist.css">
+		<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body class="no-scroll">
+
+	<a id="o-reg" href="https://ingbankpoland.service-now.com/up?id=up_sc_cat_item&sys_id=bd285c9e4f2726c099070e428110c751&sysparm_category=e6ef0f941b55b810508b7885464bcbd1"></a>
+	<a id="o-mail" href="mailto:spodek2025@ing.pl"></a>
+
+
+	<ing-logo></ing-logo>
+	<div class="page-background">
+		<video autoplay loop muted id="video-bg"><source src="media/bg_loop_v2_C.mp4" type="video/mp4"></video>
+	</div>
+
+	<div id="startButton"></div>
+		<div class="page-padding">
+
+		<div id="zaproszenie-container">
+			
+
+			<video id="video-zaproszenie" class="videoZ outer-glow"><source src="media/zaproszenie_intro.mp4" type="video/mp4"></video>
+			<video autoplay loop id="video-zaproszenie-loop" class="videoZ hide outer-glow"><source src="media/zaproszenie_loop.mp4" type="video/mp4"></video>
+			
+		</div>
+	</div>
+	
+	<div id="home-sound-container"><div id="sound_off" class="sound-hide">	<a href="javascript:;"><img src="./gfx/sound_off.svg" alt="dźwięk wyłączony"></a></div><div id="sound_on" class=""><a href="javascript:;"><img src="./gfx/sound_on.svg" alt="dźwięk włączony"> </a></div></div>
+
+	<audio id="audio" src="media/intro-audio.mp3" type="audio/mpeg" loop></audio>
+	
+	<script>window.onload = updateStylesheetVersion;</script>
+
+</body>
+</html>
